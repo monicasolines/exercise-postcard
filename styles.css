@@ -1,0 +1,82 @@
+body {
+	background: black;
+}
+
+/* {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+
+.postcard-header {
+	display: flex;
+}
+
+.postcard-header img {
+	padding-top: 2px;
+	width: 50px;
+	height: 50px;
+	float: right;
+}
+
+.postcard-header h1 {
+	font-family: "Playfair Display";
+	padding-top: 10px;
+	width: 340px;
+	height: 50px;
+	margin: 0;
+}
+
+.postcard {
+	width: 400px;
+	height: 300px;
+	background-color: white;
+	padding: 10px;
+	/*margin auto centers the box horizontally */
+	margin: auto;
+}
+
+.postcard-body {
+	font-family: "Merriweather";
+	font-size: 1rem;
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+input {
+	height: 25px;
+	font-family: "Merriweather";
+	font-size: 13px;
+	padding: 4px;
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	border-bottom: 1px solid grey;
+	display: block;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+.postcard-footer {
+	padding-top: 20px;
+	text-align: center;
+}
+
+button {
+	background-color: darkgrey;
+	padding: 5px;
+}
+
+button:active {
+	border-top: 1px solid black !important;
+	border-left: 1px solid black !important;
+}
+
+button:hover {
+	cursor: pointer;
+}
